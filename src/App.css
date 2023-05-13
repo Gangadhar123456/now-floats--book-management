@@ -13,15 +13,20 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.book-item{
+  list-style: none;
+  border: white solid 3px;
+  width: 280px;
+  margin: 10px;
+  padding: 10px;
+  height: 180px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border-radius: 5px;
+
 }
 
 .App-link {
@@ -35,4 +40,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+.list-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  scroll-behavior: auto;
+}
+.app-container{
+  background-image: linear-gradient(to bottom right,rgb(234, 199, 199), rgb(197, 90, 197), rgb(167, 167, 41));
+  width:100% ;
+  height: 1000vh;
+}
+.submitForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+.search-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
